@@ -1,0 +1,122 @@
+
+body {
+    color: rgb(0, 0, 0);
+    text-decoration: double;
+    text-size-adjust: 200px;
+    font-family:'Courier New', Courier, monospace ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 100%;
+    font-size: 130%;
+
+}
+div {
+    scroll-behavior: auto;
+    z-index: 2;
+}
+b {
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+    text-decoration-color: rgb(255, 0, 221) ;
+}
+p {
+    overscroll-behavior-block: auto;
+    background-color: #ffffff;
+    opacity: 80% ;
+    display: inline;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+h1 {
+    color: blue;
+    overscroll-behavior-block: auto;
+    background-color: #ffffff;
+    opacity: 80% ;
+    display: inline;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+h2 {
+    color:rgb(0, 0, 0);
+    overscroll-behavior-block: auto;
+    background-color: #ffffff;
+    opacity: 80% ;
+    display: inline;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+h3 {
+    color:rgb(0, 0, 0);
+    overscroll-behavior-block: auto;
+    background-color: #ffffff;
+    opacity: 80% ;
+    display: inline;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+h4 {
+    color:rgb(0, 0, 0);
+    overscroll-behavior-block: auto;
+    background-color: #ffffff;
+    opacity: 80% ;
+    display: inline;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+#fixed-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:antiquewhite ;
+    padding: 10px;
+    opacity: 0.95;
+    
+}
+#div_Normal {
+    background-color: whitesmoke;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    margin-left: 0%;
+    border: 10px;
+    border-color: #000000;
+
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+hr {
+    color: black;
+    border-color: #000000;
+}
+.item {
+    text-decoration: dashed;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1000px;
+    opacity: 1;
+}
+#botao{
+    background-color: #39393f;
+    border: gray;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease-out;
+    opacity: 1;
+    position: relative;
+}
+.botao:hover{
+    background-color: #ec0505;
+}
+#lighter {
+    background-image:  url('Imagens/BackgroundDoMeuSite.png');
+    filter: grayscale(10%);
+}
