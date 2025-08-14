@@ -14,7 +14,7 @@
           <mxGeometry x="270" y="620" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="461.5" y="350" width="1137" height="840" as="geometry" />
+          <mxGeometry x="461.5" y="190" width="1137" height="840" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-60" value="V&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;otar Dificuldade&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="285" width="140" height="70" as="geometry" />
@@ -212,13 +212,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-136" value="Gerenciador de Waves" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1070" width="30" height="60" as="geometry" />
+          <mxGeometry x="330" y="870" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-17" value="Gera uma gosma" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="680" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-139" value="Spawnar inimigos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="1060" width="140" height="70" as="geometry" />
+          <mxGeometry x="630" y="800" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-18" value="Disparar Animação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1270" y="750" width="140" height="70" as="geometry" />
