@@ -14,7 +14,7 @@
           <mxGeometry x="270" y="620" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="463" y="250" width="1137" height="840" as="geometry" />
+          <mxGeometry x="461.5" y="350" width="1137" height="840" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-60" value="V&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;otar Dificuldade&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="285" width="140" height="70" as="geometry" />
@@ -200,7 +200,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-135" value="Projétil" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="570" width="30" height="60" as="geometry" />
+          <mxGeometry x="1680" y="775" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-14" value="Desacelera os inimigos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="630" width="140" height="70" as="geometry" />
@@ -212,19 +212,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-136" value="Gerenciador de Waves" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="840" width="30" height="60" as="geometry" />
+          <mxGeometry x="1650" y="1070" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-17" value="Gera uma gosma" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="680" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-139" value="Spawnar inimigos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="835" width="140" height="70" as="geometry" />
+          <mxGeometry x="1270" y="1060" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-18" value="Disparar Animação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1270" y="750" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-140" value="Seguir inimigo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="515" width="140" height="70" as="geometry" />
+          <mxGeometry x="1400" y="835" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="WaMHagMkF7FCggu0jjAN-14" target="WaMHagMkF7FCggu0jjAN-18">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -233,7 +233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-141" value="Atingir inimigo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="600" width="140" height="70" as="geometry" />
+          <mxGeometry x="1440" y="950" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-142" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l7KAXGyBvcVqriq02M7q-140" target="l7KAXGyBvcVqriq02M7q-135">
           <mxGeometry relative="1" as="geometry">
@@ -248,7 +248,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-144" value="Causar dano e/ou efeitos a um inimigo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="600" width="140" height="70" as="geometry" />
+          <mxGeometry x="1200" y="950" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-145" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7KAXGyBvcVqriq02M7q-141" target="l7KAXGyBvcVqriq02M7q-144">
           <mxGeometry width="160" relative="1" as="geometry">
