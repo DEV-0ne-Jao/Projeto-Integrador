@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="Página-1" id="m7gwwt0Oyo0ylgNK8rzP">
-    <mxGraphModel dx="1188" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,34 +74,34 @@
           <mxGeometry x="510" y="400" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-111" value="aprimorar torre" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="716.5" y="540" width="140" height="70" as="geometry" />
+          <mxGeometry x="726.5" y="530" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-112" value="Vender torre" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="630" width="140" height="70" as="geometry" />
+          <mxGeometry x="710" y="620" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-113" value="Inspecionar Torre" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="550" width="140" height="70" as="geometry" />
+          <mxGeometry x="500" y="540" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-115" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-112" target="l7KAXGyBvcVqriq02M7q-113" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="120" as="sourcePoint" />
-            <mxPoint x="610" y="120" as="targetPoint" />
+            <mxPoint x="460" y="110" as="sourcePoint" />
+            <mxPoint x="620" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-116" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-111" target="l7KAXGyBvcVqriq02M7q-113" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="480" y="120" as="sourcePoint" />
-            <mxPoint x="640" y="120" as="targetPoint" />
+            <mxPoint x="490" y="110" as="sourcePoint" />
+            <mxPoint x="650" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-117" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-113" target="l7KAXGyBvcVqriq02M7q-118" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="460" y="80" as="sourcePoint" />
-            <mxPoint x="620" y="80" as="targetPoint" />
+            <mxPoint x="470" y="70" as="sourcePoint" />
+            <mxPoint x="630" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-118" value="Visualizar Status da Torre" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="450" width="140" height="70" as="geometry" />
+          <mxGeometry x="680" y="440" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-119" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-58" target="l7KAXGyBvcVqriq02M7q-110" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -127,92 +127,17 @@
             <mxPoint x="550" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-126" value="Torre de Ataque" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="340" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-127" value="Atacar" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="380" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-128" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-129" target="l7KAXGyBvcVqriq02M7q-126" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="295" y="660" as="sourcePoint" />
-            <mxPoint x="520" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-6" value="Regenera vida da base" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="480" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-129" value="Achar inimigo (que atenda os requisitos de ser atacado)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="320" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-7" value="Torre Suporte&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1680" y="530" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-130" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-127" target="l7KAXGyBvcVqriq02M7q-129" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="950" y="190" as="sourcePoint" />
-            <mxPoint x="1110" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-131" value="Disparar Animação" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="310" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-132" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-127" target="l7KAXGyBvcVqriq02M7q-131" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1190" y="260" as="sourcePoint" />
-            <mxPoint x="1350" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-146" target="WaMHagMkF7FCggu0jjAN-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1260" y="595" as="sourcePoint" />
-            <mxPoint x="1515" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-133" value="Gerar projétil" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="260" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-13" value="Da cash ao jogador" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="550" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-134" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-127" target="l7KAXGyBvcVqriq02M7q-133" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1350" y="460" as="sourcePoint" />
-            <mxPoint x="1361" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-135" value="Projétil de Ataque" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="1700" y="905" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-14" value="Desacelera os inimigos" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1171" y="660" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" parent="1" source="WaMHagMkF7FCggu0jjAN-14" target="WaMHagMkF7FCggu0jjAN-17" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1361" y="735" as="sourcePoint" />
-            <mxPoint x="1310" y="690" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-136" value="Gerenciador de Waves" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="870" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-17" value="Gera uma gosma" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="890" y="690" width="140" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-139" value="Dar inicio a uma wave" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="865" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-18" value="Disparar Animação" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="980" y="765" width="140" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-140" value="Seguir inimigo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="835" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WaMHagMkF7FCggu0jjAN-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" parent="1" source="WaMHagMkF7FCggu0jjAN-14" target="WaMHagMkF7FCggu0jjAN-18" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1434" y="710" as="sourcePoint" />
-            <mxPoint x="1350" y="730" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="l7KAXGyBvcVqriq02M7q-141" value="Atingir inimigo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1430" y="930" width="140" height="70" as="geometry" />
@@ -241,32 +166,11 @@
         <mxCell id="WaMHagMkF7FCggu0jjAN-20" value="Inimigos" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="1310" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-146" value="Realiza uma ação" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="530" width="140" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-21" value="Causar dano a base" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1110" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-147" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WaMHagMkF7FCggu0jjAN-6" target="l7KAXGyBvcVqriq02M7q-146" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1430" y="495" as="sourcePoint" />
-            <mxPoint x="1481" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-22" value="Morrer" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1205" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-148" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WaMHagMkF7FCggu0jjAN-13" target="l7KAXGyBvcVqriq02M7q-146" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1290" y="525" as="sourcePoint" />
-            <mxPoint x="1411" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l7KAXGyBvcVqriq02M7q-149" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="WaMHagMkF7FCggu0jjAN-14" target="l7KAXGyBvcVqriq02M7q-146" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1160" y="595" as="sourcePoint" />
-            <mxPoint x="1390" y="575" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="WaMHagMkF7FCggu0jjAN-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WaMHagMkF7FCggu0jjAN-20" target="WaMHagMkF7FCggu0jjAN-21" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -296,7 +200,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gG4VdrtCW2sPI0dhbK36-5" value="Spawnar inimigos" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="716.5" y="950" width="140" height="70" as="geometry" />
+          <mxGeometry x="746.5" y="865" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gG4VdrtCW2sPI0dhbK36-6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="l7KAXGyBvcVqriq02M7q-139" target="gG4VdrtCW2sPI0dhbK36-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
