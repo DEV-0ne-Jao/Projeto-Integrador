@@ -14,7 +14,7 @@
           <mxGeometry x="10" y="720" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o-XBsnysuHapeLnbuItR-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="203" y="350" width="1007" height="840" as="geometry" />
+          <mxGeometry x="203" y="350" width="1007" height="960" as="geometry" />
         </mxCell>
         <mxCell id="o-XBsnysuHapeLnbuItR-63" value="Criar partida" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="550" width="140" height="70" as="geometry" />
@@ -248,6 +248,15 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="600" y="1110" as="sourcePoint" />
             <mxPoint x="510" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-XBsnysuHapeLnbuItR-112" value="Se mover" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o-XBsnysuHapeLnbuItR-113" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o-XBsnysuHapeLnbuItR-61" target="o-XBsnysuHapeLnbuItR-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="760" as="sourcePoint" />
+            <mxPoint x="280" y="1155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
