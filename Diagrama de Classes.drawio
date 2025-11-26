@@ -26,13 +26,13 @@
           <mxGeometry height="80" width="160" y="110" as="geometry" />
         </mxCell>
         <mxCell id="-V6yH5fRA98fm0_H23Ta-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Banner" vertex="1">
-          <mxGeometry height="106" width="160" x="-790" y="282" as="geometry" />
+          <mxGeometry height="136" width="160" x="-790" y="282" as="geometry" />
         </mxCell>
-        <mxCell id="-V6yH5fRA98fm0_H23Ta-17" parent="-V6yH5fRA98fm0_H23Ta-16" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;Nome (string)&lt;/div&gt;Imagem (ImageLabel)&lt;div&gt;Personagens (Torre[][])&lt;/div&gt;" vertex="1">
-          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        <mxCell id="-V6yH5fRA98fm0_H23Ta-17" parent="-V6yH5fRA98fm0_H23Ta-16" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;Nome (string)&lt;/div&gt;Imagem (ImageLabel)&lt;div&gt;Personagens (Torre[][])&lt;/div&gt;&lt;div&gt;dataInicio (os.date)&lt;/div&gt;&lt;div&gt;dataFim (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;os.date&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="160" y="26" as="geometry" />
         </mxCell>
         <mxCell id="-V6yH5fRA98fm0_H23Ta-19" parent="-V6yH5fRA98fm0_H23Ta-16" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="girar()" vertex="1">
-          <mxGeometry height="26" width="160" y="80" as="geometry" />
+          <mxGeometry height="26" width="160" y="110" as="geometry" />
         </mxCell>
         <mxCell id="-V6yH5fRA98fm0_H23Ta-30" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Inimigo" vertex="1">
           <mxGeometry height="176" width="160" x="-236" y="1058" as="geometry" />
@@ -157,7 +157,7 @@
         </mxCell>
         <mxCell id="UvAgq1QOcn79N2ye13a8-27" connectable="0" parent="UvAgq1QOcn79N2ye13a8-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;..*&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.887" y="-4" as="geometry">
-            <mxPoint x="6" as="offset" />
+            <mxPoint x="13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UvAgq1QOcn79N2ye13a8-28" connectable="0" parent="UvAgq1QOcn79N2ye13a8-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
