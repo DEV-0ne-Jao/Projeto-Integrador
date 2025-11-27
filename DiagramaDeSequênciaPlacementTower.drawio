@@ -178,14 +178,14 @@
         <mxCell id="3QQw_06_pUsMS-zArx5R-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" value="" vertex="1">
           <mxGeometry height="300" width="20" x="135" y="1280" as="geometry" />
         </mxCell>
-        <mxCell id="3QQw_06_pUsMS-zArx5R-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="Inventário" vertex="1">
+        <mxCell id="3QQw_06_pUsMS-zArx5R-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="BarraPersonagens" vertex="1">
           <mxGeometry height="160" width="100" x="295" y="1280" as="geometry" />
         </mxCell>
         <mxCell id="3QQw_06_pUsMS-zArx5R-4" parent="3QQw_06_pUsMS-zArx5R-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="50" width="10" x="45" y="90" as="geometry" />
         </mxCell>
         <mxCell id="3QQw_06_pUsMS-zArx5R-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="Dificuldade" vertex="1">
-          <mxGeometry height="300" width="100" x="465" y="1280" as="geometry" />
+          <mxGeometry height="300" width="100" x="410" y="1280" as="geometry" />
         </mxCell>
         <mxCell id="3QQw_06_pUsMS-zArx5R-6" parent="3QQw_06_pUsMS-zArx5R-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="80" width="10" x="45" y="140" as="geometry" />
@@ -204,35 +204,7 @@
         <mxCell id="3QQw_06_pUsMS-zArx5R-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Jogador" vertex="1">
           <mxGeometry height="30" width="60" x="115" y="1310" as="geometry" />
         </mxCell>
-        <mxCell id="3QQw_06_pUsMS-zArx5R-10" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" value="DificuldadeEscolhida()">
-          <mxGeometry relative="1" width="160" y="-10" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="340" y="1490" as="sourcePoint" />
-            <mxPoint x="145" y="1490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3QQw_06_pUsMS-zArx5R-11" edge="1" parent="1" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=1;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;" target="3QQw_06_pUsMS-zArx5R-6" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="350" y="1430" as="sourcePoint" />
-            <mxPoint x="510" y="1435.02" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3QQw_06_pUsMS-zArx5R-12" connectable="0" parent="3QQw_06_pUsMS-zArx5R-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="EscolhaDaDificuldade()" vertex="1">
-          <mxGeometry relative="1" x="-0.2174" as="geometry">
-            <mxPoint x="1" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3QQw_06_pUsMS-zArx5R-13" edge="1" parent="1" source="3QQw_06_pUsMS-zArx5R-6" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="3QQw_06_pUsMS-zArx5R-3" value="ConfirmarEscolha()">
-          <mxGeometry relative="1" width="160" y="-10" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="490" y="1480" />
-            </Array>
-            <mxPoint x="500" y="1480" as="sourcePoint" />
-            <mxPoint x="355" y="1480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3QQw_06_pUsMS-zArx5R-15" edge="1" parent="1" source="3QQw_06_pUsMS-zArx5R-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="3QQw_06_pUsMS-zArx5R-2" value="ConfirmarEscolha()">
+        <mxCell id="3QQw_06_pUsMS-zArx5R-15" edge="1" parent="1" source="3QQw_06_pUsMS-zArx5R-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="3QQw_06_pUsMS-zArx5R-2" value="TorreEscolhida()">
           <mxGeometry relative="1" width="160" y="-10" as="geometry">
             <mxPoint as="offset" />
             <Array as="points" />
