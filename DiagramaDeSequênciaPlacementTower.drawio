@@ -177,6 +177,63 @@
             <mxPoint x="1" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" value="" vertex="1">
+          <mxGeometry height="300" width="20" x="140" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="Votar" vertex="1">
+          <mxGeometry height="300" width="100" x="300" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-3" parent="lCQCn-5p8KEoCF6K2aE5-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="Dificuldade" vertex="1">
+          <mxGeometry height="300" width="100" x="470" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-5" parent="lCQCn-5p8KEoCF6K2aE5-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-6" edge="1" parent="1" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="149.5" y="960" as="sourcePoint" />
+            <mxPoint x="345" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-7" connectable="0" parent="lCQCn-5p8KEoCF6K2aE5-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="VotarDificuldade()" vertex="1">
+          <mxGeometry relative="1" x="-0.2174" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Jogador" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-9" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" value="DificuldadeEscolhida()">
+          <mxGeometry relative="1" width="160" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="345" y="1060" as="sourcePoint" />
+            <mxPoint x="150" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-10" edge="1" parent="1" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=1;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;" target="lCQCn-5p8KEoCF6K2aE5-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="355" y="1000" as="sourcePoint" />
+            <mxPoint x="515" y="1005.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-11" connectable="0" parent="lCQCn-5p8KEoCF6K2aE5-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="EscolhaDaDificuldade()" vertex="1">
+          <mxGeometry relative="1" x="-0.2174" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCQCn-5p8KEoCF6K2aE5-12" edge="1" parent="1" source="lCQCn-5p8KEoCF6K2aE5-5" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="lCQCn-5p8KEoCF6K2aE5-3" value="ConfirmarEscolha()">
+          <mxGeometry relative="1" width="160" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="495" y="1050" />
+            </Array>
+            <mxPoint x="505" y="1050" as="sourcePoint" />
+            <mxPoint x="360" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
