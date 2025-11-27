@@ -125,7 +125,7 @@
           <mxGeometry height="60" width="10" x="45" y="90" as="geometry" />
         </mxCell>
         <mxCell id="3QQw_06_pUsMS-zArx5R-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="ServerStorageService" vertex="1">
-          <mxGeometry height="340" width="120" x="420" y="1280" as="geometry" />
+          <mxGeometry height="240" width="120" x="420" y="1280" as="geometry" />
         </mxCell>
         <mxCell id="3QQw_06_pUsMS-zArx5R-6" parent="3QQw_06_pUsMS-zArx5R-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="120" width="10" x="55" y="90" as="geometry" />
@@ -220,6 +220,23 @@
             <mxPoint x="580" y="1440" as="sourcePoint" />
             <mxPoint x="200" y="1450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3QQw_06_pUsMS-zArx5R-21" edge="1" parent="1" source="3QQw_06_pUsMS-zArx5R-2" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=0.25;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="3QQw_06_pUsMS-zArx5R-24" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="150" y="1530" as="sourcePoint" />
+            <mxPoint x="640" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QQw_06_pUsMS-zArx5R-22" connectable="0" parent="3QQw_06_pUsMS-zArx5R-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="PosicionarTorre()" vertex="1">
+          <mxGeometry relative="1" x="-0.2174" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QQw_06_pUsMS-zArx5R-23" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="Workspace" vertex="1">
+          <mxGeometry height="290" width="120" x="570" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="3QQw_06_pUsMS-zArx5R-24" parent="3QQw_06_pUsMS-zArx5R-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="55" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
