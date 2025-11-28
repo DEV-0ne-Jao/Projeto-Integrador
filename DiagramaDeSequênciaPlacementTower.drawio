@@ -360,6 +360,78 @@
             <mxPoint x="165.0038095238095" y="2100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" value="" vertex="1">
+          <mxGeometry height="300" width="20" x="920" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="VerMissoes" vertex="1">
+          <mxGeometry height="170" width="100" x="1080" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-3" parent="Q8m_cv2TwDCZgccz2rfz-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="AnalisarMissao" vertex="1">
+          <mxGeometry height="230" width="120" x="1205" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-5" parent="Q8m_cv2TwDCZgccz2rfz-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="55" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-6" edge="1" parent="1" source="Q8m_cv2TwDCZgccz2rfz-1" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="Q8m_cv2TwDCZgccz2rfz-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="929.5" y="200" as="sourcePoint" />
+            <mxPoint x="1125" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-7" connectable="0" parent="Q8m_cv2TwDCZgccz2rfz-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="VisualizarMissoes()" vertex="1">
+          <mxGeometry relative="1" x="-0.2174" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Jogador" vertex="1">
+          <mxGeometry height="30" width="60" x="900" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-9" edge="1" parent="1" source="Q8m_cv2TwDCZgccz2rfz-3" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="Q8m_cv2TwDCZgccz2rfz-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1135" y="190" as="sourcePoint" />
+            <mxPoint x="1235" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-10" connectable="0" parent="Q8m_cv2TwDCZgccz2rfz-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="AnalisarMissao" vertex="1">
+          <mxGeometry relative="1" x="-0.2174" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-11" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" value="MissaoStarted()">
+          <mxGeometry relative="1" width="160" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1210" y="340" />
+            </Array>
+            <mxPoint x="1414.5" y="340" as="sourcePoint" />
+            <mxPoint x="929.6666666666665" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" value="AceitaMissao" vertex="1">
+          <mxGeometry height="290" width="120" x="1355" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-15" parent="Q8m_cv2TwDCZgccz2rfz-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="55" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-16" parent="Q8m_cv2TwDCZgccz2rfz-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="55" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-17" edge="1" parent="1" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="Q8m_cv2TwDCZgccz2rfz-16" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1275" y="204.58" as="sourcePoint" />
+            <mxPoint x="1400" y="204.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8m_cv2TwDCZgccz2rfz-18" connectable="0" parent="Q8m_cv2TwDCZgccz2rfz-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="AceitarMissao()" vertex="1">
+          <mxGeometry relative="1" x="-0.2174" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
