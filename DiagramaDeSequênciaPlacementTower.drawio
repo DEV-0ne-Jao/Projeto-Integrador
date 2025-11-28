@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.1">
   <diagram name="Page-1" id="dpvZonO2rDB6wDgF1Tq4">
-    <mxGraphModel dx="654" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1144" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -350,6 +350,14 @@
         <mxCell id="HRylRUIEN8PggZQYBD0D-83" connectable="0" parent="HRylRUIEN8PggZQYBD0D-82" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SpawnInimigos()" vertex="1">
           <mxGeometry relative="1" x="-0.2174" as="geometry">
             <mxPoint x="11" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRylRUIEN8PggZQYBD0D-95" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" value="RestartDaWave()">
+          <mxGeometry relative="1" width="160" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="649.48" y="2100" as="sourcePoint" />
+            <mxPoint x="165.0038095238095" y="2100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
